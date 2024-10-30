@@ -1,7 +1,7 @@
 import { Suspense } from 'react'
-import BirthdayMap from './components/BirthdayMap'
-import MessageList from './components/MessageList'
-import SurpriseButton from './components/SurpriseButton'
+import BirthdayMap from '@/components/BirthdayMap'
+import MessageList from '@/components/MessageList'
+import SurpriseButton from '@/components/SurpriseButton'
 
 export default function Home() {
   return (
