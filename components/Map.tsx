@@ -24,10 +24,10 @@ const MapComponent: React.FC<MapComponentProps> = ({ onLocationSelect }) => {
     const searchBoxRef = useRef<google.maps.places.SearchBox | null>(null);
     const [mapCenter, setMapCenter] = useState<google.maps.LatLngLiteral>(initialCenter);
     const [markerPosition, setMarkerPosition] = useState<google.maps.LatLngLiteral>(initialCenter);
-    const [apiKey, setApiKey] = useState('AIzaSyDoBV6vdeJzDUNRlRO2x_DgcCWm7WmDt4k')
+    const [apiKey, setApiKey] = useState('')
 
     useEffect(() => {
-        setApiKey('AIzaSyDoBV6vdeJzDUNRlRO2x_DgcCWm7WmDt4k')
+        setApiKey('')
     }, [])
 
 
